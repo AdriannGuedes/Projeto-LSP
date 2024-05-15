@@ -1,0 +1,98 @@
+.container {
+    background-color: rgb(221, 221, 221);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+form {
+    width: 80%;
+}
+
+.h1-login {
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.input-field-container {
+    position: relative;
+    width: 100%;
+    margin: 30px auto;
+}
+
+.input-field {
+    width: calc(100% - 40px);
+    /* Subtrai a largura do ícone */
+    height: 45px;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border: none;
+    /* Remova a borda padrão */
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(71, 71, 71);
+    padding-left: 15px;
+    /* Adicione espaço para o texto */
+}
+
+.input-field::placeholder {
+    color: rgb(169, 169, 169);
+}
+
+.input-field+.icon {
+    position: absolute;
+    top: 50%;
+    right: 22px;
+    transform: translateY(-50%);
+    color: rgb(71, 71, 71);
+    /* Cor do ícone */
+}
+
+.container .entrar {
+    position: relative;
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: #4D61CC;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container .entrar-google {
+    position: relative;
+    width: calc(100% - 40px);
+    height: 45px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: rgb(71, 71, 71);
+    margin-bottom: 75px;
+}
+
+.google {
+    font-size: 20px;
+    padding-left: 6px;
+    color: rgb(255, 124, 124);
+    
+}
+
+.container .signup-link{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+}
+
+.signup-link p a {
+    color: #4D61CC;
+    text-decoration: none;
+}

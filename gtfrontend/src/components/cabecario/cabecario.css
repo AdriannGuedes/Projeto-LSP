@@ -1,0 +1,13 @@
+.background{
+    background-image: linear-gradient(20deg, #FF0000,#4747ff);
+   height: 80px;
+   padding-top: 0;
+}
+
+.titulo{
+    color:rgb(0, 0, 0);
+    font-family: 'Times New Roman';
+    text-shadow: 2px 2px 2px  #c2c2c2;
+    padding-top: 20px;
+    text-align: center;
+}
