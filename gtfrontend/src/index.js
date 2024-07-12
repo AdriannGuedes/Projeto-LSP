@@ -8,6 +8,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Login from './routes/login/login';
 import Cadastro from './routes/cadastro/cadastro';
+import Home from './routes/home/home';
+import DetalhesCard from './routes/detalhesCard/detalhesCard';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +23,14 @@ const router = createBrowserRouter([
       {
         path: "/cadastro",
         element: <Cadastro/>
+      },
+      {
+        path: "/home",
+        element: <Home/>
+      },
+      {
+        path: "/detalhesCard/:id",
+        element: <DetalhesCard/>
       }
 
     ]

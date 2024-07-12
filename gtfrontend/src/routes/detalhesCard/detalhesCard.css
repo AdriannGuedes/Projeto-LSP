@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.detalhes-container {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #39478d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 100vh;
+    overflow: auto;
+}
+
+.titulocard {
+    padding-bottom: 20px;
+    text-align: start;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.detalhes-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.detalhes-content {
+    flex: 1;
+}
+
+.sobre {
+    padding-top: 20px;
+    text-align: start;
+    padding-bottom: 25px;
+    text-shadow: 
+        -1px -1px 0 #fff,  
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.textoSobre {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+.detalhes-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.detalhes-button-reserva {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detalhes-button-duvida {
+    padding: 10px 47px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.detalhes-button:hover {
+    background-color: #0056b3;
+}

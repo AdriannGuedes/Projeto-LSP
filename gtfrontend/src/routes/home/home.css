@@ -1,0 +1,75 @@
+.carwash-list-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #39478d;
+}
+
+.search-container {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input[type='text'] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    
+    
+}
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-grow: 1;
+    padding-bottom: 300px;
+}
+
+.card {
+    background-color: #596EDD;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Adiciona padding em todos os lados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px; /* Aplica o border-radius */
+    margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+}
+
+.card-details {
+    width: 100%; /* Garante que os detalhes ocupem toda a largura do card */
+    padding: 10px;
+    text-align: left;
+}
+
+.card-name {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.card-address {
+    color: #666;
+    font-size: 14px;
+}
